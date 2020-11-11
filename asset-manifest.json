@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/resort-beach-react/static/css/main.cea51ca9.chunk.css",
-    "main.js": "/resort-beach-react/static/js/main.bac783a3.chunk.js",
-    "main.js.map": "/resort-beach-react/static/js/main.bac783a3.chunk.js.map",
-    "runtime-main.js": "/resort-beach-react/static/js/runtime-main.ca403cf5.js",
-    "runtime-main.js.map": "/resort-beach-react/static/js/runtime-main.ca403cf5.js.map",
-    "static/js/2.b0f56319.chunk.js": "/resort-beach-react/static/js/2.b0f56319.chunk.js",
-    "static/js/2.b0f56319.chunk.js.map": "/resort-beach-react/static/js/2.b0f56319.chunk.js.map",
-    "static/js/3.a2826cef.chunk.js": "/resort-beach-react/static/js/3.a2826cef.chunk.js",
-    "static/js/3.a2826cef.chunk.js.map": "/resort-beach-react/static/js/3.a2826cef.chunk.js.map",
+    "main.js": "/resort-beach-react/static/js/main.6bf1b060.chunk.js",
+    "main.js.map": "/resort-beach-react/static/js/main.6bf1b060.chunk.js.map",
+    "runtime-main.js": "/resort-beach-react/static/js/runtime-main.62e07dfd.js",
+    "runtime-main.js.map": "/resort-beach-react/static/js/runtime-main.62e07dfd.js.map",
+    "static/js/2.b65ea95d.chunk.js": "/resort-beach-react/static/js/2.b65ea95d.chunk.js",
+    "static/js/2.b65ea95d.chunk.js.map": "/resort-beach-react/static/js/2.b65ea95d.chunk.js.map",
+    "static/js/3.2651cde5.chunk.js": "/resort-beach-react/static/js/3.2651cde5.chunk.js",
+    "static/js/3.2651cde5.chunk.js.map": "/resort-beach-react/static/js/3.2651cde5.chunk.js.map",
     "index.html": "/resort-beach-react/index.html",
     "static/css/main.cea51ca9.chunk.css.map": "/resort-beach-react/static/css/main.cea51ca9.chunk.css.map",
-    "static/js/2.b0f56319.chunk.js.LICENSE.txt": "/resort-beach-react/static/js/2.b0f56319.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/resort-beach-react/static/media/room-2.48c60181.jpeg"
+    "static/js/2.b65ea95d.chunk.js.LICENSE.txt": "/resort-beach-react/static/js/2.b65ea95d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/resort-beach-react/static/media/room-2.48c60181.jpeg",
+    "static/media/logo.54a9b9cb.svg": "/resort-beach-react/static/media/logo.54a9b9cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca403cf5.js",
-    "static/js/2.b0f56319.chunk.js",
+    "static/js/runtime-main.62e07dfd.js",
+    "static/js/2.b65ea95d.chunk.js",
     "static/css/main.cea51ca9.chunk.css",
-    "static/js/main.bac783a3.chunk.js"
+    "static/js/main.6bf1b060.chunk.js"
   ]
 }
