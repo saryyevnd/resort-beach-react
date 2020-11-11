@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = ({ children, hero='defaultHero' }) => {
+const Hero = ({ children, hero = 'defaultHero' }) => {
     return (
         <header className={hero}>
             {children}
