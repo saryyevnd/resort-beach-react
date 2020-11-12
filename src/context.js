@@ -12,12 +12,17 @@ class RoomProvider extends Component {
     componentDidMount() {
         let rooms = this.formatData(items)
         let featuredRooms = rooms.filter(room => room.featured);
-        this.setState({
-            rooms,
-            featuredRooms,
-            sortedRooms: rooms,
-            loading: false
-        })
+        this.Tout = setTimeout(() => {
+            this.setState({
+                rooms,
+                featuredRooms,
+                sortedRooms: rooms,
+                loading: false
+            })
+        }, 1000)
+    }
+    componentWillUnmount(){
+        clearTimeout(this.Tout)
     }
     formatData(items) {
         let tempItems = items.map(item => {

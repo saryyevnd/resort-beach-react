@@ -27,7 +27,6 @@ class FeaturedRooms extends Component {
                                 />
                             })}
                 </div>
-                <Loading />
             </section>
         )
     }
