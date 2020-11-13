@@ -24,6 +24,11 @@ class RoomProvider extends Component {
     componentWillUnmount(){
         clearTimeout(this.Tout)
     }
+    getRoom = slug => {
+        let tempRooms = [...this.state.rooms];
+        const room = tempRooms.find(room=>room.slug === slug)
+        return room
+    }
     formatData(items) {
         let tempItems = items.map(item => {
             let id = item.sys.id
@@ -34,7 +39,7 @@ class RoomProvider extends Component {
         return tempItems
     }
     render() {
-        return <RoomContext.Provider value={{ ...this.state }}>
+        return <RoomContext.Provider value={{ ...this.state, getRoom: this.getRoom }}>
             {this.props.children}
         </RoomContext.Provider>
     }
