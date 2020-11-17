@@ -9,12 +9,3 @@ export const StyledHero = styled.header`
     align-items: center;
     justify-content: center;
 `
-
-
-
-
-// export const SimpleButton = styled.button`
-//     color: ${orange};
-//     background: green;
-//     font-size: 3rem
-// `

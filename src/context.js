@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import items from './data.js';
 const RoomContext = React.createContext(null);
-// <RoomContext.Provider value={} />
 class RoomProvider extends Component {
     state = {
         rooms: [],
