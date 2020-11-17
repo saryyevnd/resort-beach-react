@@ -20,12 +20,12 @@ class RoomProvider extends Component {
             })
         }, 1000)
     }
-    componentWillUnmount(){
+    componentWillUnmount() {
         clearTimeout(this.Tout)
     }
     getRoom = slug => {
         let tempRooms = [...this.state.rooms];
-        const room = tempRooms.find(room=>room.slug === slug)
+        const room = tempRooms.find(room => room.slug === slug)
         return room
     }
     formatData(items) {
@@ -44,6 +44,18 @@ class RoomProvider extends Component {
     }
 }
 
+
 const RoomConsumer = RoomContext.Consumer;
+
+
+export const withRoomConsumer = Component => {
+    return props => {
+        return (
+            <RoomConsumer>
+                {value => <Component {...props} context={value} />}
+            </RoomConsumer>
+        )
+    }
+}
 
 export { RoomProvider, RoomConsumer, RoomContext }
