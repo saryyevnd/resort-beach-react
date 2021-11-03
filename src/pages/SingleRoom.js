@@ -13,6 +13,10 @@ class SingleRoom extends Component {
             defaultBcg
         }
     }
+
+    componentDidMount(){
+        document.documentElement.scrollTo(0, 0)
+    }
     static contextType = RoomContext;
     render() {
         const { getRoom } = this.context;
